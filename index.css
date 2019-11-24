@@ -1,0 +1,94 @@
+* {
+    font-family: Verdana;
+}
+
+.header {
+    background-color: rgb(30, 41, 105);
+    color: rgb(113, 190, 235);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.banner {
+    background: url(./img/banner.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 50px;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.banner-text {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu-link {
+    margin-left: 10px;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 50px;
+    height: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    margin: 0;
+}
+
+.products-cards {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    padding: 15px;
+    box-shadow: 10px 10px 10px rgba(25, 8, 179, 0.3);
+    text-align: center;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.card img {
+    width: 200px;
+}
+
+.card a {
+    padding: 10px;
+    background: linear-gradient(to left, rgb(47, 47, 179), rgb(128, 52, 199));
+    border-radius: 10px;
+    margin-top: 10px;
+    display: block;
+}
+
+.footer {
+    background-image: url(https://sun9-38.userapi.com/c857536/v857536180/82ddf/kEgMj3EHTCA.jpg);
+    margin-top: 50px;
+    padding: 100px;
+    color: rgb(65, 235, 59);
+    background-size: cover;
+}
